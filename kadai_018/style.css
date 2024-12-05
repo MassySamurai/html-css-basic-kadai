@@ -1,13 +1,7 @@
-html {
-    position: relative;
-    left: 50%;
-}
-
 #top {
     width: 800px;
     background-color: #dcc9f4;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -20,18 +14,15 @@ html {
 #middle {
     width: 800px;
     height: 800px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     background-color: #ffd9df;
-    position: absolute;
-    top: 76px;
 }
 
 #middle-child01 {
     width: 200px;
     height: 200px;
     background-color: #87ceeb;
-    position: absolute;
+    position: relative;
     top: 100px;
     left: 100px;
 }
@@ -40,8 +31,8 @@ html {
     width: 200px;
     height: 200px;
     background-color: #87ceeb;
-    position: absolute;
-    top: 300px;
+    position: relative;
+    top: 100px;
     left: 300px;
 }
 
@@ -49,8 +40,8 @@ html {
     width: 200px;
     height: 200px;
     background-color: #87ceeb;
-    position: absolute;
-    top: 500px;
+    position: relative;
+    top: 100px;
     left: 500px;
 }
 
@@ -58,8 +49,7 @@ html {
     width: 800px;
     height: 300px;
     background-color: #87ceeb;
-    position: absolute;
-    top: 915px;
+    margin: 20px auto;
 }
 
 #bottom-child01 {
@@ -72,7 +62,7 @@ html {
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
-    position: absolute;
+    position: relative;
     left: 200px;
 }
 
@@ -80,7 +70,6 @@ html {
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
-    position: absolute;
-    top: 200px;
+    position: relative;
     left: 400px;
 }
