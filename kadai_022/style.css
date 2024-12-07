@@ -10,7 +10,7 @@ h1 {
 h2 {
     font-size: 25px;
     border-bottom: 3px dotted rgb(236, 122, 122);
-}
+ }
 
 h2::before {
     content: "●";
@@ -61,7 +61,7 @@ main {
     flex-basis: 25%;
     padding: 10px 15px;
     margin: 20px、0;
-    align-content: center;
+    text-align: center;
 }
 
 .contents p:nth-of-type(4) {
